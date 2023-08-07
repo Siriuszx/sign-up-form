@@ -123,6 +123,14 @@ label {
     box-shadow: 2px 5px 6px -5px rgba(0, 0, 0, 0.65);
 }
 
+.pass-error {
+    border: 1px solid red !important;
+}
+
+.pass-correct {
+    border: 1px solid lightgreen !important;
+}
+
 .form-footer {
     padding: var(--form-container-padding);
 }
