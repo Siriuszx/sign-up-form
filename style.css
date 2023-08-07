@@ -1,5 +1,7 @@
 :root {
     --form-container-padding: 40px;
+    --main-txt-clr: #000;
+    --form-bg-clr: #f5f5f5;
 }
 
 * {
@@ -69,8 +71,9 @@ body {
 /* Form section*/
 
 .project-signup {
+    color: var(--main-txt-clr);
     width: 70%;
-    background-color: rgb(245, 245, 245);
+    background-color: var(--form-bg-clr);
 
     display: flex;
     flex-direction: column;
