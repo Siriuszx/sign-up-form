@@ -22,6 +22,12 @@ body {
     height: 100vh;
 }
 
+label {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
 /* Class sections */
 
 .sign-up-form {
@@ -65,7 +71,7 @@ body {
 }
 
 .intro-header {
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 /* Form section*/
@@ -90,6 +96,47 @@ body {
     box-shadow: 2px 5px 6px -5px rgba(0, 0, 0, 0.65);
 }
 
+.inp-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.inp-container {
+    width: 80%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.text-field {
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    width: 85%;
+    height: 32px;
+}
+
+.text-field:focus {
+    outline: none;
+    border: 1px solid #0084ff;
+    box-shadow: 2px 5px 6px -5px rgba(0, 0, 0, 0.65);
+}
+
 .form-footer {
     padding: var(--form-container-padding);
+}
+
+.form-submit {
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0084ff;
+} 
+
+.login-redirect {
+    color: #0084ff;
+    text-decoration: none;
 }

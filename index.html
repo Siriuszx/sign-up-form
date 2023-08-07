@@ -15,34 +15,63 @@
 </head>
 
 <body>
+
     <main class="sign-up-form">
         <aside class="project-intro">
             <div class="intro-body">
                 <img src="imgs/availability-svgrepo-com.svg" class="intro-logo" alt='logo'></img>
-                <h1 class="intro-header">Project Name</h1>
+                <h1 class="intro-header">Dev Bootcamp</h1>
             </div>
         </aside>
         <article class="project-signup">
             <div class="form-header">
                 <h1>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae rerum voluptate maxime dolorem
-                    ipsum. Ut, consequatur cupiditate ad numquam corporis obcaecati tenetur. Nostrum nobis suscipit
-                    labore nemo voluptatum mollitia.
+                    This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams. <br>Sign up now to get started.
                 </h1>
+                <h1>You know you want to.</h1>
             </div>
             <div class="form-body">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsam rem. Sapiente illo amet, ad fuga culpa ipsa non nihil, minima asperiores libero eaque nostrum id qui? Sunt, blanditiis impedit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsam rem. Sapiente illo amet, ad fuga culpa ipsa non nihil, minima asperiores libero eaque nostrum id qui? Sunt, blanditiis impedit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsam rem. Sapiente illo amet, ad fuga culpa ipsa non nihil, minima asperiores libero eaque nostrum id qui? Sunt, blanditiis impedit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, ipsam rem. Sapiente illo amet, ad fuga culpa ipsa non nihil, minima asperiores libero eaque nostrum id qui? Sunt, blanditiis impedit.</p>
-                <form action="" method="post"></form>
+                <form action="" method="post" id="sign-up">
+                    <div class="inp-row">
+                        <div class="inp-container">
+                            <label for="form-first-name">First Name <span aria-label="required">*</span></label>
+                            <input required class="text-field" type="text" name="form-first-name" id="form-first-name">
+                        </div>
+                        <div class="inp-container">
+                            <label for="form-last-name">Last Name <span aria-label="required">*</span></label>
+                            <input required class="text-field" type="text" name="form-last-name" id="form-last-name">
+                        </div>
+                    </div>
+                    <div class="inp-row">
+                        <div class="inp-container">
+                            <label for="form-tel">Phone Number <span aria-label="required">*</span></label>
+                            <input required class="text-field" type="tel" name="form-tel" id="form-tel">
+                        </div>
+                        <div class="inp-container">
+                            <label for="form-email">Email <span aria-label="required">*</span></label>
+                            <input required class="text-field" type="email" name="form-email" id="form-email">
+                        </div>
+                    </div>
+                    <div class="inp-row">
+                        <div class="inp-container">
+                            <label for="form-pass">Password <span aria-label="required">*</span></label>
+                            <input required class="text-field" type="password" name="form-pass" id="form-pass">
+                        </div>
+                        <div class="inp-container">
+                            <label for="form-conf-pass">Confirm password <span aria-label="required">*</span></label>
+                            <input required class="text-field" type="password" name="form-conf-pass" id="form-conf-pass">
+                        </div>
+                    </div>
+                </form>
             </div>
             <div class="form-footer">
-                <button type="submit">Sign-up</button>
-                <p>Already have an account? <a href="">Log in</a></p>
+                <button class="form-submit" form="sign-up" type="submit">Sign-up</button>
+                <p>Already have an account? <a class="login-redirect" href="">Log in</a></p>
             </div>
         </article>
     </main>
+
 </body>
 
 </html>
