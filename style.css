@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+html {
+    margin: 0;  
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Class sections */
+
+.sign-up-form {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+/* Pic section */
+
+.project-intro {
+    width: 40%;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('imgs/florian-olivo-4hbJ-eymZ1o-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.intro-body {
+    padding: 64px;
+    width: 100%;
+    
+    background-color: rgba(255,255,255,0.5);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-logo {
+    height: 100px;
+}
+
+.intro-header {
+    font-size: 2.5rem;
+}
+
+/* Form section*/
+
+.project-signup {
+    width: 60%;
+}
