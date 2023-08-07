@@ -144,6 +144,10 @@ label {
     background-color: #0084ff;
 } 
 
+.form-submit:hover {
+    cursor: pointer;
+}
+
 .login-redirect {
     color: #0084ff;
     text-decoration: none;
